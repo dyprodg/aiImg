@@ -39,7 +39,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col max-w-4xl mx-auto">
+    <main className="flex flex-col max-w-4xl mx-auto h-full">
       <section className="flex items-center gap-2 px-6 py-6">
         <h2>Prompt</h2>
         <input
@@ -50,7 +50,7 @@ export default function Home() {
           ref={promptRef}
         />
       </section>
-      <section className="grid gap-4">
+      <section className="gap-4">
         {/* Left */}
         <div className="flex flex-col gap-6 px-6 py-6">
           <button 
