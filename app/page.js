@@ -50,7 +50,7 @@ export default function Home() {
           ref={promptRef}
         />
       </section>
-      <section className="grid grid-cols-2 gap-4">
+      <section className="grid gap-4">
         {/* Left */}
         <div className="flex flex-col gap-6 px-6 py-6">
           <button 
@@ -73,7 +73,7 @@ export default function Home() {
           
         </div>
         {/* Right */}
-        <div className="py-6 text-2xl">
+        <div className="hidden md:block py-6 text-2xl">
           <h2> Other Options</h2>
           {OPTIONS.map(option => {
             return <Option
